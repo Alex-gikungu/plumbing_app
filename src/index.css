@@ -1,0 +1,390 @@
+.heading {
+  display: flex;
+  align-items: center;
+  background-color: cornflowerblue;
+  width: auto;
+  
+}
+.heading img {
+  width: 100px;
+
+}
+.heading ul :hover {
+  background-color:lightgrey;
+  border-radius: 7px;
+  height:5px;
+  cursor: pointer;
+}
+
+.heading ul {
+  list-style: none;
+  display: flex;
+}
+
+.heading li {
+  padding:30px;
+  font-size: 1.2rem;
+  font-weight:600;
+  height:10px;
+}
+
+.heading ul li a {
+  color: ghostwhite;
+  text-decoration: none;
+}
+
+
+.cnt {
+  display:grid;
+  margin-left:100px;
+  margin-top: 5px;
+}
+
+.cnt img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+}
+
+.cnt p {
+  font-size: 1.0rem;
+}
+
+
+.slide {
+  background-image: url("ii.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.home {
+  margin-bottom:10px;
+}
+
+.home h2{
+  text-align: center;
+}
+
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: cornflowerblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.image {
+  text-align: center;
+}
+
+.photos h2 {
+  font-size: 2.0rem;
+  color: darkblue;
+}
+
+.photos p {
+  font-size: 1.4rem;
+}
+
+.photos {
+  text-align: center;
+  font-size: large;
+}
+
+
+/* projects section*/
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.image {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.image:hover {
+  filter: brightness(1.05);
+  transform: scale(1.00); /* Add scaling effect on mouse-over */
+}
+.image img {
+  width:300px;
+  height:300px;
+}
+
+.image h2 {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.image p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+
+.whole {
+  background-color: #f5f5f5;
+}
+
+.pro {
+  text-align: center;
+}
+
+.pro h1 {
+  font-weight: 900;
+}
+
+.pro h2 {
+  font-size: 1.5rem;
+  font-size: larger;
+}
+.pro h1 {
+  color: cornflowerblue;
+}
+
+
+
+/*footer section*/
+
+#facebook {
+  display: flex;
+  padding:30px;
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#facebook img {
+  width: 80px;
+}
+
+#whatsapp img{
+  width: 80px;
+}
+
+#gmail img{
+  width: 80px;
+}
+
+.bout {
+float: left;
+margin-right: 20px; 
+}
+
+.whole img {
+float:left;
+margin: 100px;
+}
+
+
+.footer {
+background-color: cornflowerblue;
+color: #fff;
+font-size:large;
+margin-top: 20px;
+}
+.container {
+margin: 0 auto;
+padding: 0 20px;
+align-items: center;
+flex-wrap: wrap;
+}
+.container p{
+font-size:large;
+}
+.footer-content {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.footer-section {
+flex: 1 0 300px;
+margin-bottom: 20px;
+}
+
+.footer-section {
+flex: 1;
+margin: 10px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.footer-section h3 {
+font-size:x-large;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.footer-section p {
+font-size:large;
+margin-bottom: 5px;
+text-align: center;
+}
+.footer-section:hover{
+  background-color: lightsteelblue;
+}
+
+.footer-bottom {
+width: 100%;
+text-align: center;
+margin-top: 10px;
+padding: 5px 0;
+}
+
+.social-links {
+display: flex;
+align-items: center;
+gap:10px;
+}
+
+#facebook{
+display: flex;
+align-items: center;
+width: 10px;
+height: 10px;
+}
+#whatsapp {
+margin-left:120px;
+display: flex;
+align-items: center;
+width: 10px;
+height: 10px;
+} 
+#gmail{
+margin-left:150px;
+display: flex;
+align-items: center;
+width: 10px;
+height: 10px;
+}
+
+
+
+
+
+
+
+/* reviews */
+
+/* Add this CSS to your styles.css or style.scss file */
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top:60px;
+}
+
+.review {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.reviews h2{
+  text-align: center;
+}
+.review h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  color: gold;
+  font-size: 1.2rem;
+  margin-right: 2px;
+}
+
+.review p {
+  font-size: 1rem;
+}
+
+
+/* about section */
+
+
+/* About section styling */
+.about-container {
+  display: flex;
+  align-items: flex-start; /* Align content at the top */
+  justify-content: space-between; /* Add space between image and cards */
+  padding: 40px;
+}
+
+.about-image {
+  width: 40%; /* Adjust the image width as needed */
+  border-radius: 8px; /* Apply border-radius to the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  width: 55%; /* Adjust the width of the content area */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-card {
+  background-color: #f5f5f5; /* Card background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission-card {
+  order: 1; /* Position the Mission card on top */
+}
+
+.vision-card {
+  order: 2; /* Position the Vision card at the bottom */
+}
+
+.why-us-card {
+  order: 3; /* Position the Why Us card in between */
+}
+
+/* Center the "Mission" heading */
+.mission-card h2 {
+  text-align: center;
+}
+
+/* Center the "Why Choose Us?" heading */
+.why-us-card h2 {
+  text-align: center;
+}
+.vision-card h2{
+  text-align: center;
+}
