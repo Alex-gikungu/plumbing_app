@@ -423,6 +423,23 @@ height: 10px;
     width: 80px; /* Adjust the logo size for smaller screens */
   }
 
+  .cnt {
+    display:grid;
+    margin-left:100%;
+    margin-top: 5px;
+  }
+  
+  .cnt img {
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    float: left;
+  }
+  
+  .cnt p {
+    font-size:smaller;
+  }
+
   /* Slide section styles for smartphones */
   .slide {
     height: auto;
@@ -456,6 +473,7 @@ height: 10px;
 @media screen and (max-width: 767px) {
   /* Footer */
   .footer {
+    height: 20%;
     padding: 10px; /* Adjust the padding to make the footer smaller */
   }
 
@@ -468,7 +486,7 @@ height: 10px;
 
   /* Images in the footer */
   .social-links img {
-    width: 40px; /* Reduce the width of social media icons */
+    width:10px; /* Reduce the width of social media icons */
   }
 }
 
