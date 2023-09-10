@@ -412,11 +412,15 @@ height: 10px;
 @media (max-width: 768px) {
   /* Heading styles for smartphones */
   .heading {
-    flex-direction: column;
+    flex-direction:grid;
+    font-size: small;
   }
-
+.heading ul{
+  display: grid;
+  padding: 5px;
+}
   .heading li {
-    padding: 20px; /* Reduce padding for smaller screens */
+    padding:5px; /* Reduce padding for smaller screens */
   }
 
   .heading img {
@@ -425,7 +429,6 @@ height: 10px;
 
   .cnt {
     display:grid;
-    margin-left:100%;
     margin-top: 5px;
   }
   
