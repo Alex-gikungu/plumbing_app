@@ -476,8 +476,8 @@ height: 10px;
 @media screen and (max-width: 767px) {
   /* Footer */
   .footer {
-    height: 20%;
-    padding: 10px; /* Adjust the padding to make the footer smaller */
+    height:10%;
+    padding:5px; /* Adjust the padding to make the footer smaller */
   }
 
   .footer-section {
@@ -491,6 +491,108 @@ height: 10px;
   .social-links img {
     width:10px; /* Reduce the width of social media icons */
   }
+
+
+
+
+  .footer {
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size:small;
+    margin-top:10px;
+    }
+    .container {
+    margin: 0 auto;
+    padding:10px;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .container p{
+    font-size:small;
+    }
+    .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .footer-section {
+    margin-bottom:10px;
+    }
+    
+    .footer-section {
+    flex: 1;
+    margin:5px;
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    .footer-section h3 {
+    font-size:small;
+    margin-bottom:5px;
+    text-align: center;
+    }
+    
+    .footer-section p {
+    font-size:small;
+    margin-bottom: 5px;
+    text-align: center;
+    }
+    .footer-section:hover{
+      background-color: lightsteelblue;
+    }
+    
+    .footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    }
+    
+    .social-links {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    }
+    
+    #facebook{
+    display: flex;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    }
+    #whatsapp {
+    display: flex;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    } 
+    #gmail{
+    display: flex;
+    align-items: center;
+    width:10px;
+    height:10px;
+    }
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
