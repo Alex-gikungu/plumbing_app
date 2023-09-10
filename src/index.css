@@ -417,10 +417,10 @@ height: 10px;
   }
 .heading ul{
   display: grid;
-  padding: 5px;
+  padding:10px;
 }
   .heading li {
-    padding:5px; /* Reduce padding for smaller screens */
+    padding:10px; /* Reduce padding for smaller screens */
   }
 
   .heading img {
