@@ -441,60 +441,27 @@ height: 10px;
 }
 
 
+/* Media Query for Smartphones */
 
-
-/* Default styles for larger screens */
-
-/* ... (Your existing styles) ... */
-
-/* Media query for smartphones */
-@media (max-width: 768px) {
-  /* ... (Your existing smartphone styles) ... */
-
-  /* Footer section styles for smartphones */
+@media screen and (max-width: 767px) {
+  /* Footer */
   .footer {
-    padding: 20px; /* Add some padding to the footer for smartphones */
-  }
-
-  .footer-content {
-    flex-direction: column; /* Stack footer content vertically for smartphones */
+    padding: 10px; /* Adjust the padding to make the footer smaller */
   }
 
   .footer-section {
-    flex: 1;
+    flex: 1 0 calc(33.33% - 20px); /* Reduce the width of each footer section */
     margin: 10px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center; /* Center align footer sections for smartphones */
+    padding: 10px;
+    font-size: small; /* Reduce the font size */
   }
 
-  .footer-section h3 {
-    font-size: 1.4rem; /* Adjust heading font size for smartphones */
-  }
-
-  .footer-section p {
-    font-size: 1.2rem; /* Adjust paragraph font size for smartphones */
-  }
-
-  /* Social links alignment for smartphones */
-  .social-links {
-    flex-direction: row; /* Display social links horizontally for smartphones */
-  }
-
-  #facebook,
-  #whatsapp,
-  #gmail {
-    width: auto; /* Adjust the width of social links for smartphones */
-    margin: 5px; /* Add some margin between social links for smartphones */
-  }
-
-  #facebook img,
-  #whatsapp img,
-  #gmail img {
-    width: 40px; /* Adjust the size of social icons for smartphones */
+  /* Images in the footer */
+  .social-links img {
+    width: 40px; /* Reduce the width of social media icons */
   }
 }
+
 
 
 
