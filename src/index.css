@@ -519,12 +519,6 @@ height: 10px;
     display: none; /* Hide the navigation links by default on smartphones */
   }
 
-  .heading .menu-button {
-    display: block; /* Show a menu button on smartphones */
-    font-size: 1.5rem; /* Adjust the font size of the menu button */
-    cursor: pointer;
-  }
-
   .heading.mobile-nav-open ul {
     display: flex; /* Show the navigation links when the menu is open */
     flex-direction: column; /* Stack links vertically */
