@@ -26,8 +26,8 @@ const About = () => {
               installation needs. Our mission is to be a leader in the
               industry, setting the standard for safety, innovation, customer
               service, and quality, and creating a positive work environment
-              for our employees and partners. We strive to be a reliable and
-              responsible partner to our customers, helping them meet their
+              for our clients and partners. We strive to be a reliable and
+              responsible partner to our clients , helping them meet their
               needs through cutting-edge technology, quality workmanship, and
               cost-efficiency.
             </p>
@@ -48,7 +48,7 @@ const About = () => {
               <FontAwesomeIcon icon={faCheckCircle} /> Why Choose Us?
             </h2>
             <p>
-              Our commitment to excellence and customer satisfaction sets us
+              Our commitment to excellence and clients satisfaction sets us
               apart. With a team of skilled professionals and a dedication to
               delivering the best plumbing services, we are your trusted
               partner for all your plumbing needs.
