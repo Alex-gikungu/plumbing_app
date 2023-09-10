@@ -489,7 +489,6 @@ height: 10px;
 
   /* Images in the footer */
   .social-links img {
-    padding: 2px;
     width:10px; /* Reduce the width of social media icons */
   }
 

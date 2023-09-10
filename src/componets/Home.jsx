@@ -7,7 +7,7 @@ import Projects from './Projects';
 const Home = () => {
 
   const coverPageStyle = {
-    backgroundImage: `url('/ii.jpg')`,
+    backgroundImage: `url('/ii.jpg')`
   };
 
   // Sample review data

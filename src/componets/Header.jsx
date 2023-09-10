@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { FaHome, FaInfo, FaCogs, FaProjectDiagram } from 'react-icons/fa'; // Import FontAwesome icons
 
 const Header = () => {
@@ -7,10 +8,11 @@ const Header = () => {
       <img src="/m.solutions logo.png" alt="logo" />
       <h2>M. Plumbing Solutions</h2>
       <ul>
-        <li><a href="/"><FaHome /> Home</a></li>
-        <li><a href="/about"><FaInfo /> About Us</a></li>
-        <li><a href="/services"><FaCogs /> Services</a></li>
-        <li><a href="/projects"><FaProjectDiagram /> Projects</a></li>
+        {/* Use Link components for navigation */}
+        <li><Link to="/"><FaHome /> Home</Link></li>
+        <li><Link to="/about"><FaInfo /> About Us</Link></li>
+        <li><Link to="/services"><FaCogs /> Services</Link></li>
+        <li><Link to="/projects"><FaProjectDiagram /> Projects</Link></li>
       </ul>
       <div className="cnt">
         <img src="/call.png" alt="call" />
