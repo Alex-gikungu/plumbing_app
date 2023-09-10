@@ -428,8 +428,8 @@ height: 10px;
   }
 
   .cnt {
-    display:grid;
-    margin-top: 5px;
+
+    display:none;
   }
   
   .cnt img {
