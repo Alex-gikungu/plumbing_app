@@ -5,6 +5,14 @@ import ServicesSection from './ServicesSection';
 import Projects from './Projects';
 
 const Home = () => {
+
+  const coverPageStyle = {
+    backgroundImage: `url('/ii.jpg')`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "100vh",
+  };
+
   // Sample review data
   const reviews = [
     {
@@ -27,6 +35,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      <div className="cover-page" style={coverPageStyle}>
         {/* <h2>Welcome to M.Solution Plumbing</h2> */}
         <div className="slide">
           <div className="content">
@@ -37,6 +46,7 @@ const Home = () => {
               <button id="bt2" onClick={<ServicesSection/>}>Our Services</button>
             </div>
           </div>
+        </div>
         </div>
 
         <div className="home">
