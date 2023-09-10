@@ -388,3 +388,110 @@ height: 10px;
 .vision-card h2{
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+/* Media query for smartphones */
+@media (max-width: 768px) {
+  /* Heading styles for smartphones */
+  .heading {
+    flex-direction: column;
+  }
+
+  .heading li {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .heading img {
+    width: 80px; /* Adjust the logo size for smaller screens */
+  }
+
+  /* Slide section styles for smartphones */
+  .slide {
+    height: auto;
+  }
+
+  .slide h2 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  /* Home section styles for smartphones */
+  .home h2 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .content {
+    top: 40%; /* Adjust vertical position for smaller screens */
+  }
+
+  /* Projects section styles for smartphones */
+  .main {
+    grid-template-columns: repeat(1, 1fr); /* Adjust the number of columns for smaller screens */
+  }
+
+  /* Footer section styles for smartphones */
+  /* ... (Update your footer styles for smaller screens) ... */
+}
+
+
+
+
+/* Default styles for larger screens */
+
+/* ... (Your existing styles) ... */
+
+/* Media query for smartphones */
+@media (max-width: 768px) {
+  /* ... (Your existing smartphone styles) ... */
+
+  /* Footer section styles for smartphones */
+  .footer {
+    padding: 20px; /* Add some padding to the footer for smartphones */
+  }
+
+  .footer-content {
+    flex-direction: column; /* Stack footer content vertically for smartphones */
+  }
+
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Center align footer sections for smartphones */
+  }
+
+  .footer-section h3 {
+    font-size: 1.4rem; /* Adjust heading font size for smartphones */
+  }
+
+  .footer-section p {
+    font-size: 1.2rem; /* Adjust paragraph font size for smartphones */
+  }
+
+  /* Social links alignment for smartphones */
+  .social-links {
+    flex-direction: row; /* Display social links horizontally for smartphones */
+  }
+
+  #facebook,
+  #whatsapp,
+  #gmail {
+    width: auto; /* Adjust the width of social links for smartphones */
+    margin: 5px; /* Add some margin between social links for smartphones */
+  }
+
+  #facebook img,
+  #whatsapp img,
+  #gmail img {
+    width: 40px; /* Adjust the size of social icons for smartphones */
+  }
+}
