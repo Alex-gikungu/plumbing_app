@@ -488,12 +488,8 @@ height: 10px;
   }
 
   .heading img {
-    width: 80px; /* Adjust the logo size as needed */
+    width:50px; /* Adjust the logo size as needed */
     margin-bottom: 10px; /* Add some spacing below the logo */
-  }
-
-  .heading ul {
-    display: none; /* Hide the navigation links by default on smartphones */
   }
 
   .heading.mobile-nav-open ul {
@@ -533,7 +529,7 @@ height: 10px;
   }
 
   .review {
-    width: 100%; /* Make each review take full width on smartphones */
+    width:50%; /* Make each review take full width on smartphones */
     margin: 10px 0; /* Add vertical spacing between reviews */
   }
 
