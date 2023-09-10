@@ -8,9 +8,6 @@ const Home = () => {
 
   const coverPageStyle = {
     backgroundImage: `url('/ii.jpg')`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    height: "100vh",
   };
 
   // Sample review data

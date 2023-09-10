@@ -51,7 +51,7 @@
   font-size: 1.0rem;
 }
 .cover-page {
-  background-image: url("ii.jpg");
+  /* background-image: url("ii.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
