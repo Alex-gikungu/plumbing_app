@@ -547,3 +547,30 @@ height: 10px;
     text-decoration: none;
   }
 }
+
+
+
+/* Default styles for larger screens */
+
+/* ... (Your existing styles) ... */
+
+/* Media query for smartphones */
+@media (max-width: 768px) {
+  .reviews {
+    flex-direction: column; /* Stack reviews vertically on smaller screens */
+    align-items: center; /* Center-align reviews on smaller screens */
+  }
+
+  .review {
+    width: 100%; /* Make each review take full width on smartphones */
+    margin: 10px 0; /* Add vertical spacing between reviews */
+  }
+
+  .rating {
+    justify-content: center; /* Center-align rating stars and text */
+  }
+
+  .star {
+    font-size: 1rem; /* Adjust the font size of rating stars */
+  }
+}
