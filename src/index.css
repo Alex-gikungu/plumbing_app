@@ -506,6 +506,7 @@ height: 10px;
     padding:10px;
     align-items: center;
     flex-wrap: wrap;
+    background-color: chartreuse;
     }
     .container p{
     font-size:small;
@@ -553,7 +554,6 @@ height: 10px;
     .social-links {
     display: flex;
     align-items: center;
-    background-color: aqua;
     }
     
     #facebook{
