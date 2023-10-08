@@ -343,6 +343,15 @@ height: 10px;
   #gmail {
     margin-left: 0;
   }
+    /* Adjust image sizes and margins for smaller screens */
+    #facebook img, #whatsapp img, #gmail img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .social-links div {
+      margin: 0 10px; /* Adjust spacing between social links for smaller screens */
+    }
 }
 
 
