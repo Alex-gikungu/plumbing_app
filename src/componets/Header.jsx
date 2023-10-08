@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="heading">
       <img src="/m.solutions logo.png" alt="logo" />
-      <h2>M. Plumbing Solutions</h2>
+      <h2>MAXIE PLUMBING SERVICES</h2>
       <ul>
         {/* Use Link components for navigation */}
         <li><Link to="/"><FaHome /> Home</Link></li>

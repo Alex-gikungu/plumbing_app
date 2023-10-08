@@ -7,7 +7,7 @@ import Projects from './Projects';
 const Home = () => {
 
   const coverPageStyle = {
-    backgroundImage: `url('/ii.jpg')`
+    backgroundImage: `url('/to1.jpeg')`
   };
 
   // Sample review data
@@ -36,7 +36,7 @@ const Home = () => {
         {/* <h2>Welcome to M.Solution Plumbing</h2> */}
         <div className="slide">
           <div className="content">
-            <h2>M.SOLUTION PLUMBING</h2>
+            <h2>MAXIE PLUMBING SERVICES</h2>
             <h3>Best Plumbing and maintenance service providers in Kenya</h3>
             <div className="buttons">
               <button id="bt1">Contact Us</button>
@@ -53,22 +53,21 @@ const Home = () => {
       <div className="image">
         <img src="./basin1.jpeg" alt="image" />
         <h2>Washroom Toilet & Sink Installation</h2>
-        <p>we offer faucet repairs and installations. We can repair any existing washroom sink or install new ones to update your bathroom. We make sure that all our work is done to the highest standards of safety and efficiency.</p>
+        <p>we offer sanitary appliances  repairs and installations. We also install and repair kitchen sinks and washhand basins . We make sure that all our work is done to the highest standards of safety and efficiency.</p>
       </div>
 
       {/* Repeat the following block for each service */}
       <div className="image">
         <img src="/toilet.jpeg" alt="image" />
         <h2>Washroom Toilet Repair & Installation</h2>
-        <p>we offer toilets repairs and installations. We can repair any existing toilet or install new ones to update your bathroom. We make sure that all our work is done to the highest standards of safety and efficiency.</p>
+        <p>we offer water closset repairs and installations. We make sure that all our work is done to the highest standards of safety and efficiency.</p>
       </div>
 
       
       <div className="image">
         <img src="./toile2.jpeg" alt="image"/>
         <h2>Washroom  Basin Repair & Installation</h2>
-        <p> we offer washroom toilets repairs and installations. This is caters for people with disabilities and those with 
-            special needs.
+        <p> we offer Grab rail for the elderly and disabbled at an affordable cost.We also install arabic showers and telephonic showers . 
              We make sure that all our work is done to the highest standards of safety and efficiency.</p>
       </div>
       </div>
