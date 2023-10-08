@@ -183,13 +183,13 @@
 
 /*footer section*/
 
-#facebook {
+/* #facebook {
   display: flex;
   padding:30px;
   width: 50px;
   height: 30px;
   border-radius: 50%;
-}
+} */
 
 #facebook img {
   width: 80px;
