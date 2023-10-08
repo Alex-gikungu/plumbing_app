@@ -354,6 +354,7 @@ height: 10px;
     }
     .social-links{
       padding: 30px;
+      display: none;
     }
 }
 
