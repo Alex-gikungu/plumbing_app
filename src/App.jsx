@@ -49,6 +49,9 @@ import Bio from './componets/Bio';
 
 const App = () => {
   return (
+    <>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -65,6 +68,7 @@ const App = () => {
         <Route path="/services" element={<ServicesSection />} />
       </Routes>
     </Router>
+    </>
   );
 };
 
