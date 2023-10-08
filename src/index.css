@@ -349,7 +349,10 @@ height: 10px;
       height: 40px;
       margin: 5px;
     }
-  
+  #facebook img{
+    margin-right: 50px;
+    margin-left: 0px;
+  }
     .social-links div {
       margin: 0 10px; /* Adjust spacing between social links for smaller screens */
     }
