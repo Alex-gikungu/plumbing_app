@@ -358,21 +358,6 @@ height: 10px;
 }
 
 
-/* ... Your previous styles ... */
-
-@media (max-width: 600px) {
-  /* Adjust the font size for smaller screens */
-  .about-card h2 {
-    font-size: 1.5rem; /* Adjust the font size as needed */
-  }
-
-  .about-card p {
-    font-size: 1rem; /* Adjust the font size as needed */
-  }
-}
-
-
-
 /* reviews */
 
 /* Add this CSS to your styles.css or style.scss file */
@@ -473,6 +458,36 @@ height: 10px;
 
 
 
+/* ... Your previous styles ... */
+
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column; /* Stack items in a column */
+    align-items: center; /* Center align items */
+    padding: 20px; /* Adjust padding as needed */
+  }
+
+  .about-image {
+    width: 100%; /* Adjust image width to fit the screen */
+    border-radius: 8px; /* Apply border-radius to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin at the bottom */
+  }
+
+  .about-content {
+    width: 100%; /* Adjust content width to fit the screen */
+  }
+
+  .about-card {
+    width: 100%; /* Adjust card width to fit the screen */
+    margin-bottom: 20px; /* Add margin at the bottom */
+  }
+
+  /* Center the headings */
+  .about-card h2 {
+    text-align: center;
+  }
+}
 
 
 
