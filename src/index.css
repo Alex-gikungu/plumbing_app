@@ -353,8 +353,7 @@ height: 10px;
       margin: 10px; /* Adjust spacing between social links for smaller screens */
     }
     .social-links{
-      padding: 30px;
-      display: none;
+      gap: 20%;
     }
 }
 
