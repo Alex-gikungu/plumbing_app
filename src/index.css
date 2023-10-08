@@ -299,6 +299,32 @@ height: 10px;
 
 
 
+/*footer section */
+
+/* Adjustments for smaller screens (smartphones) */
+@media (max-width: 600px) {
+  .footer {
+    font-size: small; /* Adjust font size for smaller screens */
+  }
+
+  .footer-section {
+    margin: 5px; /* Adjust margin for smaller screens */
+  }
+
+  .footer-section h3 {
+    font-size: medium; /* Adjust font size for heading */
+  }
+
+  .footer-section p {
+    font-size: small; /* Adjust font size for paragraphs */
+  }
+
+  .social-links {
+    gap: 5px; /* Adjust gap between social links */
+  }
+
+  /* Add more styles as needed for smaller screens */
+}
 
 
 
@@ -471,123 +497,6 @@ height: 10px;
   /* Footer section styles for smartphones */
   /* ... (Update your footer styles for smaller screens) ... */
 }
-
-
-/* Media Query for Smartphones */
-/* 
-@media screen and (max-width: 767px) {
-  
-  .footer {
-    height:10%;
-    padding:5px; 
-  }
-
-  .footer-section {
-    flex: 1 0 calc(33.33% - 20px); 
-    margin:2px;
-    padding:2px;
-    font-size: small; 
-  }
-
-
-  .social-links img {
-    width:10px; 
-  }
-
-
-
-
-  .footer {
-    background-color: cornflowerblue;
-    color: #fff;
-    font-size:small;
-    margin-top:10px;
-    }
-    .container {
-    margin: 0 auto;
-    padding:10px;
-    align-items: center;
-    flex-wrap: wrap;
-    }
-    .container p{
-    font-size:small;
-    }
-    .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    }
-    
-    .footer-section {
-    margin-bottom:4px;
-    }
-    
-    .footer-section {
-    flex: 1;
-    margin:2px;
-    padding:4px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    }
-    
-    .footer-section h3 {
-    font-size:small;
-    margin-bottom:5px;
-    text-align: center;
-    }
-    
-    .footer-section p {
-    font-size:small;
-    margin-bottom: 5px;
-    text-align: center;
-    }
-    .footer-section:hover{
-      background-color: lightsteelblue;
-    }
-    .footer-section .social-links{
-      width: 100px;
-    }
-    .footer-bottom {
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    padding: 5px;
-    }
-    
-    .social-links {
-    display: flex;
-    align-items: center;
-    }
-    
-    #facebook{
-    align-items: center;
-    width:2px;
-    height:2px;
-    }
-    #whatsapp {
-    align-items: center;
-    width:2px;
-    height:2px;
-    } 
-    #gmail{
-    align-items: center;
-    width:2px;
-    height:2px;
-    }
-    
-#facebook img {
-  width:20px;
-}
-
-#whatsapp img{
-  width: 20px;
-}
-
-#gmail img{
-  width:20px;
-}
-
-} */
 
 
 
