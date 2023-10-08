@@ -20,12 +20,12 @@ const Home = () => {
     {
       name: 'Michael Ndegwa',
       rating: 4,
-      reviewText: "M.Solution Plumbing provided great service. I'm satisfied with their work.",
+      reviewText: "Maxie Plumbing Services Plumbing provided great service. I'm satisfied with their work.",
     },
     {
       name: 'Alex Johnson',
       rating: 5,
-      reviewText: 'I highly recommend M.Solution Plumbing. They are reliable and efficient.',
+      reviewText: 'I highly recommend Maxie Plumbing Services. They are reliable and efficient.',
     },
   ];
 

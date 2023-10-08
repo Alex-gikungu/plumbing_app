@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="footer-section about">
             <h3>About Us</h3>
             <p>
-              M.solutions is a plumbing service provider that offers quality plumbing services to clients nationwide, thanks to the high level of expertise we provide.
+            Maxie Plumbing Services is a plumbing service provider that offers quality plumbing services to clients nationwide, thanks to the high level of expertise we provide.
             </p>
           </div>
           <div className="footer-section contact">
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2023 M.Solution Plumbing. All rights reserved.</p>
+        <p>&copy; 2023 Maxie Plumbing Services . All rights reserved.</p>
       </div>
     </footer>
   );
