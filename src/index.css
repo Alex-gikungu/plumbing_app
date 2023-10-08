@@ -301,14 +301,21 @@ height: 10px;
 
 /*footer section */
 
-/* Adjustments for smaller screens (smartphones) */
+/* Default styles for the footer */
+/* ... Your other styles ... */
+
+/* Media query for smaller screens (e.g., smartphones) */
 @media (max-width: 600px) {
   .footer {
     font-size: small; /* Adjust font size for smaller screens */
   }
 
+  .footer-content {
+    flex-direction: column; /* Adjust layout for smaller screens */
+  }
+
   .footer-section {
-    margin: 5px; /* Adjust margin for smaller screens */
+    margin: 10px 0; /* Adjust margin for smaller screens */
   }
 
   .footer-section h3 {
@@ -316,15 +323,28 @@ height: 10px;
   }
 
   .footer-section p {
-    font-size: small; /* Adjust font size for paragraphs */
+    font-size: small; /* Adjust font size for text */
   }
 
+  /* Additional adjustments for social links */
   .social-links {
-    gap: 5px; /* Adjust gap between social links */
+    margin-top: 10px;
+    justify-content: center;
   }
 
-  /* Add more styles as needed for smaller screens */
+  .social-links div {
+    margin: 0 5px;
+  }
+
+  #whatsapp {
+    margin-left: 0;
+  }
+
+  #gmail {
+    margin-left: 0;
+  }
 }
+
 
 
 
