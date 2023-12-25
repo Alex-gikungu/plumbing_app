@@ -20,7 +20,7 @@ const Footer = () => {
             <h3>Follow Us</h3>
             <div className="social-links">
               <div id="facebook">
-                <a href="https://www.facebook.com/Kamau Maxy" target="_blank">
+                <a href="https://www.facebook.com/kamaumaxwel4?mibextid=pwzcmfqlRWHhawsM" target="_blank">
                   <img src="./face.png" alt="Facebook" />
                 </a>
               </div>
